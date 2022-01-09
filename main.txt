@@ -15,7 +15,9 @@ body::[[
 		- `-o` = output file
 	- `sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer`
 	- test with: `composer`
-
+- install Laravel site
+	- go to your `webs` directory
+	- `composer create-project --prefer-dist laravel/laravel site-laravel-002 --ignore-platform-req=ext-dom --ignore-platform-req=ext-dom --ignore-platform-req=ext-xml --ignore-platform-req=ext-xmlwriter`
 ]]
 extras::
 
