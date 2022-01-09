@@ -26,10 +26,14 @@ body::[[
 				- making change and committing
 					- that works as well
 - doing on Ubuntu same way with all defaults
-	- reading: https://medium.com/@sangeethkumar.tvm.kpm/how-to-connect-your-github-repository-using-ssh-key-fcfbf0d62eb6	
-	
-
-
+	- `ssh-keygen -t rsa -b 4096 -C "edward@tanguay.info"`
+		- hit ENTER for all questions (default file and no passphrase)
+	- `vim /home/et/.ssh/id_rsa.pub`
+		- copy and paste at: https://github.com/settings/keys
+	- `git clone git@github.com:edwardtanguay/onespace.git onespace_with_ssh`
+		- clone worked
+		- adding and pushing
+			- works
 - other resources
 	- watching: https://www.youtube.com/watch?v=on-MniMwdxM
 		- assumes you are using Hackjam
