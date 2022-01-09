@@ -7,6 +7,6 @@ body::[[
 	- `git clone https://github.com/edwardtanguay/exercise-cashier-problem testcashier`
 - kinds
 	- this kind
-	- that kind
+	- that kindsdf
 ]]
 extras::
