@@ -1,0 +1,12 @@
+==foray
+category::GitHub
+title::Setup SSH for GitHub on Ubuntu
+rank::3.5
+body::[[
+- try to clone directory
+	- `git clone https://github.com/edwardtanguay/exercise-cashier-problem testcashier`
+- kinds
+	- this kind
+	- that kind
+]]
+extras::
