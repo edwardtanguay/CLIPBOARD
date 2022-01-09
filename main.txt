@@ -35,6 +35,14 @@ body::[[
 		- `sudo /opt/lampp/xampp start`
 - installation
 	- `opt/lampp`
+		- `/bin` - all executables
+		- `/etc` - config files 
+			- MariaDB: `my.cnf`
+			- PHP: `php.ini`
+			- Apache: `httpd.conf`
+		- `/htdocs` - webs
+- create web
+	- `sudo chmod 777 -R /opt/lampp/htdocs`
 ]]
 extras::
 
