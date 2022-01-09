@@ -3,7 +3,8 @@ category::PHP
 title::Install XAMPP on Ubuntu
 rank::3.5
 body::[[
-- https://www.apachefriends.org
+- install XAMPP
+	- https://www.apachefriends.org
 	- clicked on Linux button
 	- downloaded `xampp-linux-x64-8.1.1-2-installer.run`
 		- double-clicked, cannot display
@@ -12,6 +13,21 @@ body::[[
 		- `chmod 755 xampp-linux-x64-8.1.1-2-installer.run`
 		- `sudo ./xampp-linux-x64-8.1.1-2-installer.run`
 		- then you get a nice Bitnami graphical installation
+		- it finished, no problems
+	- can't find it in software
+- start XAMPP
+	- `sudo /opt/lampp/lampp start`
+		---------------------------------
+		Starting XAMPP for Linux 8.1.1-2...
+		XAMPP: Starting Apache...already running.
+		XAMPP: Starting MySQL.../opt/lampp/share/xampp/xampplib: line 22: netstat: command not found
+		ok.
+		XAMPP: Starting ProFTPD.../opt/lampp/share/xampp/xampplib: line 22: netstat: command not found
+		ok.
+		---------------------------------
+	- http://localhost works
+	- start XAMPP Manager
+		- `sudo /opt/lampp/manager-linux-x64.run`
 ]]
 extras::
 
