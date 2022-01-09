@@ -29,11 +29,12 @@ body::[[
 	- http://localhost works
 	- start XAMPP Manager
 		- `sudo /opt/lampp/manager-linux-x64.run`
-	- you can start all services witih
+	- you can start all services with:
+		- `sudo /opt/lampp/xampp status`
+		- `sudo /opt/lampp/xampp stop`
 		- `sudo /opt/lampp/xampp start`
 - installation
 	- `opt/lampp`
-	- 
 ]]
 extras::
 
