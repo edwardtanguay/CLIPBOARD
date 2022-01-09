@@ -12,6 +12,7 @@ body::[[
 		- `cd \home\et\Downloads`
 		- `chmod 755 xampp-linux-x64-8.1.1-2-installer.run`
 		- `sudo ./xampp-linux-x64-8.1.1-2-installer.run`
+		- OR: `udo ./xampp-linux-x64-8.1.1-2-installer.run --mode text`
 		- then you get a nice Bitnami graphical installation
 		- it finished, no problems
 	- can't find it in software
@@ -28,6 +29,11 @@ body::[[
 	- http://localhost works
 	- start XAMPP Manager
 		- `sudo /opt/lampp/manager-linux-x64.run`
+	- you can start all services witih
+		- `sudo /opt/lampp/xampp start`
+- installation
+	- `opt/lampp`
+	- 
 ]]
 extras::
 
