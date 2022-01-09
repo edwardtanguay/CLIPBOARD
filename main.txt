@@ -1,1 +1,12 @@
 
+==foray
+category::Laravel
+title::Set up Laravel 8 site on Ubuntu 
+rank::3.5
+body::[[
+- install [XAMPP on Ubuntu](https://onespace.netlify.app/forays?id=198)
+- 
+]]
+extras::
+
+	
