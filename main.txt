@@ -1,1 +1,10 @@
+==foray
+category::PHP
+title::Install XAMPP on Ubuntu
+rank::3.5
+body::[[
+- nnn
+]]
+extras::
 
+	
