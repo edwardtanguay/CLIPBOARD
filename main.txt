@@ -16,7 +16,7 @@ body::[[
 			------------------------------------------------
 	- fixing
 		- discussion: https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to
-		- watching video: https://www.youtube.com/watch?v=znLeTzvgla0
+		- follow these instructions up to generating and copying the token: https://www.youtube.com/watch?v=znLeTzvgla0
 		- 
 ]]
 extras::
