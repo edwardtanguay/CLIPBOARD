@@ -1,1 +1,38 @@
+==foray
+category::GitHub
+title::Clone repositories with SSH instead of HTTP on Windows and Ubuntu
+rank::3.5
+body::[[
+- set up SSH on Windows
+	- watching: https://dev.to/bdbch/setting-up-ssh-and-git-on-windows-10-2khk
+	- *"SSH should be preinstalled on new Windows 10 machines"*
+	- `ssh-keygen -t rsa -b 4096 -C "edward@tanguay.info"`
+		- *"everybody can have as many private keys as they want"*
+		- no passphrase
+		- private key is saved in `C:\Users\ADMIN\.ssh\id_rsa2`
+		- public key is inM `C:\Users\ADMIN\.ssh\id_rsa2.pub`
+		- went to: https://github.com/settings/keys
+			- copied in public key, called it "main key windows"
+		- `git clone git@github.com:edwardtanguay/onespace.git onespace_copy`
+			- got error: 
+				--------------------------------
+				Warning: Permanently added the RSA host key for IP address '140.82.121.4' to the list of known hosts.
+				git@github.com: Permission denied (publickey).
+				fatal: Could not read from remote repository.  
+				--------------------------------
+		- switching id_rsa2 to id_rsa
+			- trying again: `git clone git@github.com:edwardtanguay/onespace.git onespace_copy`
+				- was able to clone repository
+				- making change and committing
+					- that works as well
+- doing on Ubuntu same way with all defaults
+	- reading: https://medium.com/@sangeethkumar.tvm.kpm/how-to-connect-your-github-repository-using-ssh-key-fcfbf0d62eb6	
+	
 
+
+- other resources
+	- watching: https://www.youtube.com/watch?v=on-MniMwdxM
+		- assumes you are using Hackjam
+		- this is also Ubuntu
+]]
+extras::
