@@ -5,7 +5,7 @@ rank::3.3
 body::[[
 - try to clone directory
 - `git clone https://github.com/edwardtanguay/exercise-cashier-problem testcashier`
--  that was public, changing it to private so didn’t produce the problem
+	-  that was public, changing it to private so didn’t produce the problem
 - `git clone https://github.com/edwardtanguay/onespace.git` (private)
 	- typed in username and password
 		- got error:
