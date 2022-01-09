@@ -3,7 +3,15 @@ category::PHP
 title::Install XAMPP on Ubuntu
 rank::3.5
 body::[[
-- nnn
+- https://www.apachefriends.org
+	- clicked on Linux button
+	- downloaded `xampp-linux-x64-8.1.1-2-installer.run`
+		- double-clicked, cannot display
+	- reading: https://vitux.com/ubuntu-xampp
+		- `cd \home\et\Downloads`
+		- `chmod 755 xampp-linux-x64-8.1.1-2-installer.run`
+		- `sudo ./xampp-linux-x64-8.1.1-2-installer.run`
+		- then you get a nice Bitnami graphical installation
 ]]
 extras::
 
