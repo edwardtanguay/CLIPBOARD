@@ -35,6 +35,15 @@ body::[[
 				- changed remote origin:
 					- `git remote rm origin`
 					- `git remote add origin https://edward@tanguay.info:THETOKEN@github.com/edwardtanguay/onespace
-`
+					- got error:
+						-----------------------------------------
+						> git push -u origin master
+						fatal: unable to access 'https://tanguay.info:THETOKEN@github.com/edwardtanguay/onespace/': URL using bad/illegal format or missing URL
+						-----------------------------------------
+				- changed remote origin:
+					- `git remote rm origin`
+					- `git remote add origin https://edwardtanguay:THETOKEN@github.com/edwardtanguay/onespace`				
+					- had to do a: `git push --set-upstream origin master`
+					- %% was about to push successfully to private repository using token
 ]]
 extras::
