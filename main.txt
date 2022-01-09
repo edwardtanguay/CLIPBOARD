@@ -4,8 +4,18 @@ category::Laravel
 title::Set up Laravel 8 site on Ubuntu 
 rank::3.5
 body::[[
-- install [XAMPP on Ubuntu](https://onespace.netlify.app/forays?id=198)
-- 
+- install  XAMPP
+	- [XAMPP on Ubuntu](https://onespace.netlify.app/forays?id=198)
+- install composer
+	- `sudo apt update`
+	- `sudo apt install php-cli unzip`
+	- `cd ~`
+	- `curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php`
+		- `-sS` = *be quiet by show errors*
+		- `-o` = output file
+	- `sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer`
+	- test with: `composer`
+
 ]]
 extras::
 
